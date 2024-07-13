@@ -23,6 +23,7 @@ import {
     threejs,
     fincasa,
     letsgo,
+    personalpicture,
 } from "../assets";
 
 export const navLinks = [
@@ -38,6 +39,10 @@ export const navLinks = [
         id: "contact",
         title: "Contact",
     },
+    {
+        id: "profile",
+        title: "My Profile",
+    }
 ];
 
 const services = [
@@ -236,4 +241,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, personalpicture };
