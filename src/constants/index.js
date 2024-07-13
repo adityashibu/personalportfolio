@@ -125,12 +125,12 @@ const experiences = [
         company_name: "Let's Go Tourism Dubai",
         icon: letsgo,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "April 2023 - May 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed a comprehensive CRM and accounting hub utilizing Notion, Python, and CODA to streamline business processes and enhance operational efficiency.",
+            "Developed a booking management system using Python to streamline workflow and improve efficiency for handling incoming bookings.",
+            "Designed and implemented an automated Excel workbook using VBA to reduce labor-intensive tasks, including invoice generation.",
+            "Managed customer databases in MySQL and utilized tools like PowerBI for data visualization of the data and customer leads.",
         ],
     },
     {
@@ -138,12 +138,13 @@ const experiences = [
         company_name: "Fincasa Group of Companies",
         icon: fincasa,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2024 - July 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Assisted in the development and maintenance of IT infrastructure within the company.",
+            "Automated daily workflow tasks using tools like Power Automate and Zapier to enhance operational efficiency.",
+            "Built and deployed a fully functional E-Commerce website using Wix Studio for a sub-company.",
+            "Developed multiple websites for various companies using Wix Studio, Wordpress, Spline, and HTML/CSS.",
+            "Designed an organizational workflow chart to establish clear hierarchy and streamline operations within the company."
         ],
     },
 ];

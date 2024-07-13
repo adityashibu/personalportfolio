@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-gray-300 text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a student developer currently studying in 3rd of University at Heriot Watt University, Dubai. I am passionate about technology and I am always looking for new opportunities to learn and grow. I have experience in web development, Python programming and I am currently learning React and Node.js. I am also interested in Machine Learning and Artificial Intelligence.
+        I am a student developer currently a 3rd year Computer Science student studying at Heriot Watt University, Dubai. I am passionate about technology and I am always looking for new opportunities to learn and grow. I have experience in web development, Python programming and I am currently learning React and Node.js. I am also interested in Machine Learning and Artificial Intelligence.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
