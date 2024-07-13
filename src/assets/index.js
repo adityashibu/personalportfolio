@@ -33,6 +33,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import resume from "./Aditya Resume.pdf";
+import vcfCard from "./Aditya S.vcf";
+
 export {
   logo,
   backend,
@@ -65,4 +68,6 @@ export {
   fincasa,
   letsgo,
   personalpicture,
+  resume,
+  vcfCard,
 };

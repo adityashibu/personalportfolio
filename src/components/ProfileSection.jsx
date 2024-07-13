@@ -1,5 +1,5 @@
 import React from 'react';
-import { personalpicture } from '../assets';
+import { personalpicture, resume, vcfCard } from '../assets';
 import { SectionWrapper } from '../hoc';
 
 const ProfileSection = () => {
@@ -18,10 +18,10 @@ const ProfileSection = () => {
                 <div className="col-span-1 text-center sm:text-left sm:-mt-10 mt-10">
                     <h2 className="text-white text-2xl sm:text-3xl font-bold mb-4">Download</h2>
                     <div className="flex flex-col space-y-4">
-                        <a href="/path-to-your-vcf.vcf" download className="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded glow-on-hover">
+                        <a href={vcfCard} download className="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded glow-on-hover">
                             My Contact
                         </a>
-                        <a href="/path-to-your-resume.pdf" download className="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded glow-on-hover">
+                        <a href={resume} download className="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded glow-on-hover">
                             My Resume
                         </a>
                     </div>
