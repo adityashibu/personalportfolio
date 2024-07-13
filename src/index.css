@@ -92,6 +92,14 @@
   -webkit-text-fill-color: transparent;
 }
 
+.glow-on-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.glow-on-hover:hover {
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.7);
+}
+
 .pink-text-gradient {
   background: #ec008c;
   /* fallback for old browsers */

@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { ProfileNavbar, ProfileSection } from './components';
+import { ProfileNavbar, ProfileSection, Tech } from './components';
 
 const ProfilePage = () => {
     return (
@@ -9,6 +9,9 @@ const ProfilePage = () => {
             </div>
             <div className="profile-content mt-20 sm:mt-20 flex flex-col items-center sm:items-start bg-hero-pattern bg-cover bg-no-repeat bg-center">
                 <ProfileSection />
+            </div>
+            <div className="-mt-10">
+                <Tech />
             </div>
         </div>
     );
