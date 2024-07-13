@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, CopyrightFooter } from './components';
 import ProfilePage from './profile'
 
 const App = () => {
@@ -24,6 +24,9 @@ const App = () => {
                 <div className="relative z-0">
                   <Contact />
                   <StarsCanvas />
+                </div>
+                <div className='bg-black mt-5 py-5'>
+                  <CopyrightFooter />
                 </div>
               </>
             }
