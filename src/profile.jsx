@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { ProfileNavbar, ProfileSection, Tech } from './components';
+import { StarsCanvas, CopyrightFooter } from './components';
 
 const ProfilePage = () => {
     return (
@@ -12,6 +13,10 @@ const ProfilePage = () => {
             </div>
             <div className="-mt-10">
                 <Tech />
+            </div>
+            <div className="bg-black mt-10 py-5">
+                <StarsCanvas />
+                <CopyrightFooter />
             </div>
         </div>
     );

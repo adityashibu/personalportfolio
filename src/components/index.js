@@ -9,6 +9,8 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import ProfileNavbar from './ProfileNavbar';
 import ProfileSection from './ProfileSection';
+import Socials from './Socials';
+import CopyrightFooter from './CopyrightFooter';
 
 export {
   Hero,
@@ -25,4 +27,6 @@ export {
   StarsCanvas,
   ProfileNavbar,
   ProfileSection,
+  Socials,
+  CopyrightFooter,
 }

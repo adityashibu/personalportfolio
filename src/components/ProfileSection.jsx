@@ -27,6 +27,7 @@ const ProfileSection = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 }
