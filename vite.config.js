@@ -6,5 +6,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  assetsInclude: ['**/*.vcf'],
+  assetsInclude: ['**/*.vcf', '**/*.pdf'],
 })
