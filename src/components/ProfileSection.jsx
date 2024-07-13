@@ -21,7 +21,7 @@ const ProfileSection = () => {
                         <a href={vcfCard} download className="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded glow-on-hover">
                             My Contact
                         </a>
-                        <a href={resume} download className="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded glow-on-hover">
+                        <a href={resume} download className="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded glow-on-hover" onTouchStart={() => { }}>
                             My Resume
                         </a>
                     </div>
