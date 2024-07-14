@@ -1,0 +1,11 @@
+/models/*.glb
+  Cache-Control: public, max-age=31536000, immutable
+
+/models/*.obj
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.glb
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.obj
+  Cache-Control: public, max-age=31536000, immutable
