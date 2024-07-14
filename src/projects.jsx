@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, ProjectsPage, CopyrightFooter, StarsCanvas } from "./components";
+import { Navbar, ProjectsPage, CopyrightFooter, StarsCanvas, Works } from "./components";
 
 const Projects = () => {
     return (
@@ -8,6 +8,7 @@ const Projects = () => {
             <Navbar />
             <div className="z-40">
                 <ProjectsPage />
+                <Works />
             </div>
             <div className="bg-black py-5">
                 <StarsCanvas />
