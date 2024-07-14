@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div>
             <Navbar />
-            <div>
+            <div className="z-40">
                 <ProjectsPage />
             </div>
             <div className="bg-black py-5">
