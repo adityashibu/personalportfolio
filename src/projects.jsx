@@ -8,7 +8,6 @@ const Projects = () => {
             <Navbar />
             <div className="z-40">
                 <ProjectsPage />
-                <Works />
             </div>
             <div className="bg-black py-5">
                 <StarsCanvas />

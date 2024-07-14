@@ -75,7 +75,7 @@ const ProjectsPage = () => {
             <div className="w-full flex">
                 <motion.p
                     variants={fadeIn("", "", 0.1)}
-                    className="mt-3 text-gray-300 text-[17px] max-w-3xl leading-[30px]"
+                    className="mt-3 text-gray-300 text-[17px] max-w-3xl leading-[30px] "
                 >
                     Welcome to my developer journey! I'm a student constantly learning and expanding my skillset. Here you'll find a collection of my projects – each one a stepping stone in my growth as a developer.  From Python automation scripts to Website development using React and Vite (Technologies I've used for developing this website), you can see how I've honed my abilities in various Technologies. Moreover I'm eager to learn about newer and upcoming technologies to sharpen and keep updating myself.
                 </motion.p>
