@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 import { styles } from '../styles';
 import { github } from '../assets';
@@ -58,9 +55,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 }
 
 const ProjectsPage = () => {
-    // useEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, []);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>
