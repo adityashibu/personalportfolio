@@ -7,9 +7,9 @@ const Projects = () => {
         <div>
             <Navbar />
             <ProjectsPage />
-            <StarsCanvas />
             <div className="bg-black py-5">
                 <CopyrightFooter />
+                <StarsCanvas />
             </div>
         </div>
     );
