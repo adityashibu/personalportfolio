@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, StarsCanvas, ProjectsPage } from "./components";
+import { Navbar, StarsCanvas, ProjectsPage, CopyrightFooter } from "./components";
 
 const Projects = () => {
     return (
@@ -8,6 +8,9 @@ const Projects = () => {
             <Navbar />
             <ProjectsPage />
             <StarsCanvas />
+            <div className="bg-black py-5">
+                <CopyrightFooter />
+            </div>
         </div>
     );
 }
