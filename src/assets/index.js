@@ -34,6 +34,9 @@ import virtualworld from "./virtualworld.png";
 import selfdrivingcar from "./selfdrivingcar.png";
 import mastermind from "./mastermind.png";
 import imageprocessing from "./imageprocessing.png";
+import valentinesday from "./valentinesday.png";
+import invoicemaster from "./invoicemaster.png";
+import aidetection from "./aidetection.png";
 
 import resume from "./Aditya Resume.pdf";
 import vcfCard from "./Aditya S.vcf";
@@ -69,6 +72,9 @@ export {
   selfdrivingcar,
   mastermind,
   imageprocessing,
+  valentinesday,
+  invoicemaster,
+  aidetection,
   fincasa,
   letsgo,
   personalpicture,

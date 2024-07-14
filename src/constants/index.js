@@ -24,6 +24,9 @@ import {
     fincasa,
     letsgo,
     personalpicture,
+    valentinesday,
+    invoicemaster,
+    aidetection,
 } from "../assets";
 
 export const navLinks = [
@@ -281,6 +284,61 @@ const projects = [
         ],
         image: imageprocessing,
         source_code_link: "https://github.com/adityashibu/ImageProcessing",
+    },
+    {
+        name: "Invoice Master",
+        description:
+            "An automated invoicing program made using Python and Tkinter, I came up with this project to help automate the invoicing process for my father's business, heavily relied on GPT to help me tackle the fundamentals of manipulating excel files.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tkinter",
+                color: "green-text-gradient",
+            },
+        ],
+        image: invoicemaster,
+        source_code_link: "https://github.com/adityashibu/invoiceMaster",
+    },
+    {
+        name: "AI Content Detection",
+        description:
+            "My first step into the world of AI where I set out to learn about LLM's and how they work, I tried to create a program that could detect the amount of AI generated text in a given text file, although I still haven't completed this project.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "jupyternotebook",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tensorflow",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: aidetection,
+        source_code_link: "https://github.com/adityashibu/AIDetector",
+    },
+    {
+        name: "Valentines Day Website",
+        description:
+            "A simple website I made for Valentines day for one of my friends, it was a fun project to work on and I learned a lot about CSS, mainly about CSS keyframes and animations using CSS. This was also my first time deploying a website to a domain.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+        ],
+        image: valentinesday,
+        source_code_link: "https://github.com/adityashibu/VDay2024",
     },
 ];
 
