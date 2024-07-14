@@ -11,6 +11,7 @@ import ProfileNavbar from './ProfileNavbar';
 import ProfileSection from './ProfileSection';
 import Socials from './Socials';
 import CopyrightFooter from './CopyrightFooter';
+import ProjectsPage from './ProjectsPage';
 
 export {
   Hero,
@@ -29,4 +30,5 @@ export {
   ProfileSection,
   Socials,
   CopyrightFooter,
+  ProjectsPage,
 }

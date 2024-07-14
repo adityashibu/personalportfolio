@@ -15,11 +15,10 @@ import {
     git,
     figma,
     docker,
-    starbucks,
-    tesla,
-    carrent,
-    jobit,
-    tripguide,
+    personalportfolio,
+    virtualworld,
+    selfdrivingcar,
+    mastermind,
     threejs,
     fincasa,
     letsgo,
@@ -182,16 +181,20 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Personal Portfolio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "My personal portfolio website built using React, Tailwind CSS, and Framer Motion. It showcases my projects, skills, and experiences, along with an insight into my learning experiences being my first website built using React.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "vite",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "framer-motion",
                 color: "green-text-gradient",
             },
             {
@@ -199,50 +202,71 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: personalportfolio,
+        source_code_link: "https://github.com/adityashibu/personalportfolio",
     },
     {
-        name: "Job IT",
+        name: "Virtual World Editor",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Building a Virtual World editor in JavaScript using nothing more than HTML CSS and JS. This project is a part of my learning journey to understand AI, as I will be using this editor to create a virtual world for my AI self driving cars to interact with.",
         tags: [
             {
-                name: "react",
+                name: "html",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
             },
             {
                 name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "js",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: virtualworld,
+        source_code_link: "https://github.com/adityashibu/Virtual_world",
+    },
+    {
+        name: "2D Self Driving Car",
+        description:
+            "Built a 2D self driving car using Vanilla Javascript in my pursuit to understand Neural Networks and AI. The car uses a neural network to learn how to drive around the track without crashing using 5 front sensors to detect the track and other cars.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "js",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: selfdrivingcar,
+        source_code_link: "https://github.com/adityashibu/neural_networks_javascript",
+    },
+    {
+        name: "Mastermind Game",
+        description:
+            "This was my university project where we had to recreate the MasterMind arcade game using C and Assembly Language, This was a group project and is a RPi based game. It was a great learning experience as it was my first time working with Low Level Languages.",
+        tags: [
+            {
+                name: "c",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "assembly",
+                color: "green-text-gradient",
+            },
+            {
+                name: "inline assembly",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: mastermind,
+        source_code_link: "https://github.com/adityashibu/masterMind_Final",
     },
 ];
 

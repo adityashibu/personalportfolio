@@ -29,9 +29,10 @@ import tesla from "./company/tesla.png";
 import fincasa from "./company/fincasa.jpg";
 import letsgo from "./company/letsgo.jpg"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import personalportfolio from "./personalportfolio.png";
+import virtualworld from "./virtualworld.png";
+import selfdrivingcar from "./selfdrivingcar.png";
+import mastermind from "./mastermind.png";
 
 import resume from "./Aditya Resume.pdf";
 import vcfCard from "./Aditya S.vcf";
@@ -62,9 +63,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  personalportfolio,
+  virtualworld,
+  selfdrivingcar,
+  mastermind,
   fincasa,
   letsgo,
   personalpicture,

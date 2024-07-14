@@ -1,5 +1,8 @@
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 import { styles } from '../styles';
 import { github } from '../assets';
@@ -69,11 +72,15 @@ const Works = () => {
           className="mt-3 text-gray-300 text-[17px] max-w-3xl leading-[30px]"
         >
           Welcome to my developer journey! I'm a student constantly learning and expanding my skillset. Here you'll find a collection of my projects – each one a stepping stone in my growth as a developer.  From Python automation scripts to Website development using React and Vite (Technologies I've used for developing this website), you can see how I've honed my abilities in various Technologies. Moreover I'm eager to learn about newer and upcoming technologies to sharpen and keep updating myself.
+          <Link to="/projects" className="text-white text-[18px] flex items-center hover:text-gray-400 py-10 font-bold">
+            <span>Discover all my projects</span>
+            <FontAwesomeIcon icon={faChevronRight} className="ml-2" />
+          </Link>
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7 justify-center">
-        {projects.map((project, index) => (
+        {projects.slice(0, 3).map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>

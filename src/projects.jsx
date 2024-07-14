@@ -1,12 +1,12 @@
 import React from "react";
 
-import { Navbar, StarsCanvas, Works } from "./components";
+import { Navbar, StarsCanvas, ProjectsPage } from "./components";
 
 const Projects = () => {
     return (
         <div>
             <Navbar />
-            <Works />
+            <ProjectsPage />
             <StarsCanvas />
         </div>
     );
