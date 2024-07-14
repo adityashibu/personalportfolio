@@ -6,7 +6,9 @@ const Projects = () => {
     return (
         <div>
             <Navbar />
-            <ProjectsPage />
+            <div>
+                <ProjectsPage />
+            </div>
             <div className="bg-black py-5">
                 <CopyrightFooter />
                 <StarsCanvas />
