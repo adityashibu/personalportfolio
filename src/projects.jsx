@@ -4,7 +4,7 @@ import { Navbar, ProjectsPage, CopyrightFooter } from "./components";
 
 const Projects = () => {
     return (
-        <div>
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar />
             <div className="z-40">
                 <ProjectsPage />
