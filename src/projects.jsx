@@ -1,15 +1,16 @@
 import React from "react";
 
-import { Navbar, ProjectsPage, CopyrightFooter } from "./components";
+import { Navbar, ProjectsPage, CopyrightFooter, StarsCanvas } from "./components";
 
 const Projects = () => {
     return (
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div>
             <Navbar />
             <div className="z-40">
                 <ProjectsPage />
             </div>
             <div className="bg-black py-5">
+                <StarsCanvas />
                 <CopyrightFooter />
             </div>
         </div>
