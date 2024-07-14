@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, CopyrightFooter } from './components';
 import ProfilePage from './profile'
+import Projects from './projects';
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
             }
           />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>

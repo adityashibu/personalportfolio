@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
@@ -8,6 +8,17 @@ import { logo, menu, close } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
+  const navigate = useNavigate();
+
+  const handleNavClick = (nav) => {
+    if (nav.id === 'profile' || nav.id === 'projects') {
+      navigate(`/${nav.id}`);
+    } else {
+      navigate(`/#${nav.id}`);
+    }
+    setActive(nav.title);
+    setToggle(false);
+  }
 
   return (
     <nav
@@ -33,10 +44,10 @@ const Navbar = () => {
               className={`
                 ${active == link.title ? "text-white" : "text-gray-400"} hover:text-white text-[18px] font-medium cursor-pointer
               `}
-              onClick={() => setActive(link.title)}
+              onClick={() => handleNavClick(link)}
             >
-              {link.id === 'profile' ? (
-                <Link to="/profile">{link.title}</Link>
+              {link.id === 'profile' || link.id === 'projects' ? (
+                <Link to={`/${link.id}`}>{link.title}</Link>
               ) : (
                 <a href={`#${link.id}`}>{link.title}</a>
               )}
@@ -62,13 +73,10 @@ const Navbar = () => {
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${active === nav.title ? "text-gray-400" : "text-white"
                     }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
+                  onClick={() => handleNavClick(nav)}
                 >
-                  {nav.id === 'profile' ? (
-                    <Link to="/profile">{nav.title}</Link>
+                  {nav.id === 'profile' || nav.id === 'projects' ? (
+                    <Link to={`/${nav.id}`}>{nav.title}</Link>
                   ) : (
                     <a href={`#${nav.id}`}>{nav.title}</a>
                   )}
