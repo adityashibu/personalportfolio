@@ -37,6 +37,7 @@ import imageprocessing from "./imageprocessing.png";
 import valentinesday from "./valentinesday.png";
 import invoicemaster from "./invoicemaster.png";
 import aidetection from "./aidetection.png";
+import bookingmaster from "./bookingmaster.png";
 
 import resume from "./Aditya Resume.pdf";
 import vcfCard from "./Aditya S.vcf";
@@ -75,6 +76,7 @@ export {
   valentinesday,
   invoicemaster,
   aidetection,
+  bookingmaster,
   fincasa,
   letsgo,
   personalpicture,

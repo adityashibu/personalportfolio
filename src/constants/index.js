@@ -27,6 +27,7 @@ import {
     valentinesday,
     invoicemaster,
     aidetection,
+    bookingmaster,
 } from "../assets";
 
 export const navLinks = [
@@ -301,6 +302,27 @@ const projects = [
         ],
         image: invoicemaster,
         source_code_link: "https://github.com/adityashibu/invoiceMaster",
+    },
+    {
+        name: "Booking Master",
+        description:
+            "A GUI based booking management system for GetYourGuide, I create this project as another way to help automate the booking process for my father's business, with an inbuilt functionality to send mails directly from the program.",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tkinter",
+                color: "green-text-gradient",
+            },
+            {
+                name: "smtp",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: bookingmaster,
+        source_code_link: "https://github.com/adityashibu/bookingMaster",
     },
     {
         name: "AI Content Detection",
