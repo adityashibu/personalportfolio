@@ -33,6 +33,7 @@ import personalportfolio from "./personalportfolio.png";
 import virtualworld from "./virtualworld.png";
 import selfdrivingcar from "./selfdrivingcar.png";
 import mastermind from "./mastermind.png";
+import imageprocessing from "./imageprocessing.png";
 
 import resume from "./Aditya Resume.pdf";
 import vcfCard from "./Aditya S.vcf";
@@ -67,6 +68,7 @@ export {
   virtualworld,
   selfdrivingcar,
   mastermind,
+  imageprocessing,
   fincasa,
   letsgo,
   personalpicture,

@@ -19,6 +19,7 @@ import {
     virtualworld,
     selfdrivingcar,
     mastermind,
+    imageprocessing,
     threejs,
     fincasa,
     letsgo,
@@ -267,6 +268,19 @@ const projects = [
         ],
         image: mastermind,
         source_code_link: "https://github.com/adityashibu/masterMind_Final",
+    },
+    {
+        name: "Image Processing",
+        description:
+            "This was another one of my university project which was to create a program in C that could process given Images and apply filters to them, such as noise, blur etc. This helped strengthen my skills using C and understanding how images are processed.",
+        tags: [
+            {
+                name: "c",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: imageprocessing,
+        source_code_link: "https://github.com/adityashibu/ImageProcessing",
     },
 ];
 
