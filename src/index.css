@@ -4,6 +4,34 @@
 @tailwind components;
 @tailwind utilities;
 
+.project-card {
+  transition: all 0.5s ease;
+}
+
+.slick-slide:not(.slick-center) .project-card {
+  filter: blur(4px);
+  transform: scale(0.9);
+}
+
+.slick-dots {
+  padding-top: 15px;
+}
+
+@media (min-width: 1024px) {
+  .slick-dots {
+    padding-top: 25px;
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: gray;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
