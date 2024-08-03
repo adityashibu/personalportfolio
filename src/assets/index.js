@@ -42,6 +42,9 @@ import bookingmaster from "./bookingmaster.png";
 import resume from "./Aditya Resume.pdf";
 import vcfCard from "./Aditya S.vcf";
 
+// Lotties
+import developer from "./lotties/developer.json";
+
 export {
   logo,
   backend,
@@ -82,4 +85,5 @@ export {
   personalpicture,
   resume,
   vcfCard,
+  developer,
 };

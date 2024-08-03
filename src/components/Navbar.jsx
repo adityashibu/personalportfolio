@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Link as RouterLink, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link as RouterLink, useNavigate, useLocation } from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { styles } from '../styles';
@@ -10,15 +10,38 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state && location.state.scrollTo) {
+      const { scrollTo } = location.state;
+      const element = document.getElementById(scrollTo);
+      if (element) {
+        scroll.scrollTo(scrollTo, {
+          smooth: true,
+          duration: 500,
+          offset: -70,
+        });
+      }
+    }
+  }, [location]);
 
   const handleNavClick = (nav) => {
-    if (nav.id === 'profile' || nav.id === 'projects') {
-      navigate(`/${nav.id}`);
+    if (location.pathname === '/projects' || location.pathname === '/profile') {
+      if (nav.id === 'about' || nav.id === 'contact' || nav.id === 'work') {
+        navigate('/', { replace: true, state: { scrollTo: nav.id } });
+      } else {
+        navigate(`/${nav.id}`);
+      }
     } else {
-      scroll.scrollTo(nav.id, {
-        smooth: true,
-        duration: 500,
-      });
+      const element = document.getElementById(nav.id);
+      if (element) {
+        scroll.scrollTo(nav.id, {
+          smooth: true,
+          duration: 500,
+          offset: -70,
+        });
+      }
     }
     setActive(nav.title);
     setToggle(false);
